@@ -6,8 +6,7 @@ def roll_call_dwarves(dwarfs)
   end
 end
 
-veggies = ["carrot", "cucumber", "pepper"]
-fruits = ["apple", "banana", "orange"]
+
 
 def summon_captain_planet(veggies)
   veggies.collect do |fruits|
