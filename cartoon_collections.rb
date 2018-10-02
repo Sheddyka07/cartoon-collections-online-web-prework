@@ -21,6 +21,6 @@ end
 
 def find_the_cheese(strings_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese = strings_array.find{|i| i == "cheddar" || i == "gouda" || i == "camembert"}
+  cheese = strings_array.find{|i| i == ("cheddar" || "gouda" || "camembert")}
   cheese
 end
