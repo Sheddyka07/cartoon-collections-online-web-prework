@@ -6,6 +6,8 @@ def roll_call_dwarves(dwarfs)
   end
 end
 
+veggies = ["carrot", "cucumber", "pepper"]
+
 def summon_captain_planet(veggies)
   # Your code here
 end
