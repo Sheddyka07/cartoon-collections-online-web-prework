@@ -1,10 +1,11 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
-def roll_call_dwarves(dwarves)
-  dwarves.each_with_index { |index, item|
-  hash[item] = index
-}
-
+def 
+  hash = Hash.new
+  dwarves.each_with_index { |item, index|
+    hash[item] = index
+  }
+  hash
 end
 
 def summon_captain_planet# code an argument here
