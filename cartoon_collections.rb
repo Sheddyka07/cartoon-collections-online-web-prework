@@ -12,6 +12,7 @@ fruits = ["apple", "banana", "orange"]
 def summon_captain_planet(veggies)
   veggies.collect do |fruits|
     fruits.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
