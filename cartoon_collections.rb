@@ -9,7 +9,7 @@ end
 veggies = ["carrot", "cucumber", "pepper"]
 
 def summon_captain_planet(veggies)
-  # Your code here
+  veggies.length 
 end
 
 def long_planeteer_calls# code an argument here
