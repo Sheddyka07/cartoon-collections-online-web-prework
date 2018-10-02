@@ -10,7 +10,7 @@ veggies = ["carrot", "cucumber", "pepper"]
 
 def summon_captain_planet(veggies)
   second_array = Array.new(veggies.length)
-  second_array.each()
+  second_array.each {|x| print x, "! " }
 end
 
 def long_planeteer_calls# code an argument here
