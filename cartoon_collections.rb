@@ -9,6 +9,7 @@ end
 veggies = ["carrot", "cucumber", "pepper"]
 
 def summon_captain_planet(veggies)
+  second_array = Array.new(veggies)
   veggies.length 
 end
 
