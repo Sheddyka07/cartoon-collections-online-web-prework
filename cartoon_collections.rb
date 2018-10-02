@@ -10,7 +10,8 @@ def summon_captain_planet(veggies)
   end
 end
 
-def long_planeteer_calls(long_call)
+def long_planeteer_calls(calls)
+  if 
   
 end
 
