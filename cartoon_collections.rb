@@ -10,8 +10,8 @@ veggies = ["carrot", "cucumber", "pepper"]
 fruits = ["apple", "banana", "orange"]
 
 def summon_captain_planet(veggies)
-  fruits = Array.new(veggies.length)
-  fruits.each {|x| print x, "! " }
+  veggies.collect do |fruits|
+    
 end
 
 def long_planeteer_calls# code an argument here
